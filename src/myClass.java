@@ -45,7 +45,7 @@ class Employee {
     }
 
     // Initialization Block
-    // Can do this as well to initialize the employee
+    // The initialization block runs first, and then the body of the constructor is executed.
     {
         id = ++nextId;
         startDate = LocalDate.now();
