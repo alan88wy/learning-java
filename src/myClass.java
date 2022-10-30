@@ -37,19 +37,19 @@ class Employee {
     private String department;
     private LocalDate startDate;
 
-    public Employee() {
-        // Do not need to do the following since we have the initialization block below
-        // this.id = this.getNextId();
-        // this.salary = 0.00;
-        // this.startDate = LocalDate.now();
-    }
-
     // Initialization Block
     // The initialization block runs first, and then the body of the constructor is executed.
     {
         id = ++nextId;
         startDate = LocalDate.now();
         salary = 0.00;
+    }
+
+    public Employee() {
+        // Do not need to do the following since we have the initialization block below
+        // this.id = this.getNextId();
+        // this.salary = 0.00;
+        // this.startDate = LocalDate.now();
     }
 
     public Employee(String name, double salary, String department, LocalDate startDate) {
