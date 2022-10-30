@@ -38,13 +38,22 @@ class Employee {
     private LocalDate startDate;
 
     public Employee() {
-        this.id = this.getNextId();
-        this.salary = 0.00;
-        this.startDate = LocalDate.now();
+        // Do not need to do the following since we have the initialization block below
+        // this.id = this.getNextId();
+        // this.salary = 0.00;
+        // this.startDate = LocalDate.now();
+    }
+
+    // Initialization Block
+    // Can do this as well to initialize the employee
+    {
+        id = ++nextId;
+        startDate = LocalDate.now();
+        salary = 0.00;
     }
 
     public Employee(String name, double salary, String department, LocalDate startDate) {
-        this.id = this.getNextId();
+        // this.id = this.getNextId();
         this.name = name;
         this.salary = salary;
         this.department = department;
