@@ -60,8 +60,8 @@ class Employee {
         this.startDate = startDate;
     }
 
-    public int getNextId() {
-        return ++this.nextId;
+    public static int getNextId() {
+        return ++nextId;
     }
 
     public int getId() {
