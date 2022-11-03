@@ -73,6 +73,14 @@ public class ex01 {
 
 		System.out.println(bi);
 
+		Integer x = 5;
+
+		System.out.println("Value of Integer x is : " + x);
+        
+        String y = "30";
+        
+        System.out.println("Value of y is : " + Integer.parseInt(y));
+
 	}
 
 }

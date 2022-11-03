@@ -26,6 +26,12 @@ public class myClass {
         c.setDepartment("X-Team");
         c.setSalary(0.00);
         System.out.println("C : " + c.toString());
+
+        Manager boss = new Manager("Q", 10000.0, "MI6", LocalDate.now());    
+        boss.setBonus(5000);
+
+        System.out.println("Boss : " + boss.toString());
+        
     }
 }
 
