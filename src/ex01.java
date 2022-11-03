@@ -81,6 +81,7 @@ public class ex01 {
         
         System.out.println("Value of y is : " + Integer.parseInt(y));
 
+		System.out.println("Value of y is : " + Integer.valueOf(y));
 	}
 
 }
