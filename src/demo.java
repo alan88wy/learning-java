@@ -57,6 +57,10 @@ public class demo {
 
         System.out.println("Multiply 5 by 30 = " + multiply(5,30));
 
+        int x = 5;
+        System.out.println("x   : " + x);
+        System.out.println("x++ : " + x++);
+        System.out.println("x++ : " + x++);
         
     }
 }
