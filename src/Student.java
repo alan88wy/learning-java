@@ -1,46 +1,32 @@
-  /*
-	Instance & Static:
-	- Declared at class-level 
-	- Scope: Entire class
-	- Gets default value
-	- Cannot be re-initialized directly within class
 
-	Instance: Represents object state
 
-	- Values are unique to object
-	- From outside class: Accessible via object reference 
-
-	Static:
-	 
-	- Values are unique to class ~ One copy per class (shared across objects)
-	- From outside class: Accessible via Class Name or object reference eg Student.computeCount
-
-	Instance & static variables are also referred to as fields or attributes. Attributes is probably more commonly associated with instance variables. 
-*/
-  
-class Student {
+public class Student {
     static int computeCount;
-    
+
     int id;
     String name;
     String gender;
     int age;
-    long phone;	  
-    double gpa;	  
+    long phone;
+    double gpa;
     char degree;
-    
+
     boolean international;
     double tuitionFees = 12000.0;
     double internationalFees = 5000.0;
-  
-    void compute() {	
-           computeCount = computeCount + 1;
-        int nextId = id + 1;		  
+
+    public Student(String name, String gender) {
         
+    }
+
+    void compute() {
+        computeCount = computeCount + 1;
+        int nextId = id + 1;
+
         if (international) {
             tuitionFees = tuitionFees + internationalFees;
         }
-      
+
         System.out.println("\nid: " + id);
         System.out.println("nextId: " + nextId);
         System.out.println("name: " + name);
@@ -52,8 +38,8 @@ class Student {
         System.out.println("tuitionFees: " + tuitionFees);
         System.out.println("computeCount: " + computeCount);
     }
-    
-  
+
+
     public static void main(String[] args) {
         Student student1 = new Student();
         student1.id = 1000;	
