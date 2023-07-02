@@ -18,10 +18,10 @@ public class Bitwise {
         System.out.println(i + " (" + Integer.toBinaryString(i) + ") ^ " +
                             j + " (" + Integer.toBinaryString(j) + ") = " +
                             (i ^ j) + " (" + Integer.toBinaryString(i ^ j) + ")");
-        
+
         System.out.println("~" + i + " (~" + Integer.toBinaryString(i) + ") = " + (~i) +
                             " (" + Integer.toBinaryString(~i) + ")");
-        
+
         // Shift Operator
         j = i << 1;
         System.out.println("Bitwise Shift Operator");
@@ -38,11 +38,11 @@ public class Bitwise {
         double k = i / 2.0;  // I think better to do k = (double) i / 2.0;
         System.out.println(i + " >>> 1 (" + Integer.toBinaryString(i) + " >>> 1) = " + j +
                             " (" + Integer.toBinaryString(j) + ")");
-                            
+
         System.out.println("Integer Division : integer i (" + i + ") / 2 = " + (i / 2));
         System.out.println("Double Division : double k = i (" + i + ") / 2.0 = " + k);
 
-
+       
     }
 
 }
