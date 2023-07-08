@@ -2,7 +2,7 @@ import java.io.File;
 import java.io.FileNotFoundException;
 import java.util.Scanner;
 
-public class file2 {
+public class ReadingFile02 {
     public static void main(String[] args) {
         
         try {

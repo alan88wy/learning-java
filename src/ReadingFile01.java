@@ -1,5 +1,5 @@
 import java.io.*;
-public class file1 {
+public class ReadingFile01 {
     public static void main(String[] args) {
 
         BufferedReader reader;
