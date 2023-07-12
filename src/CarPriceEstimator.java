@@ -1,7 +1,4 @@
 import java.time.LocalDate;
-
-import javax.security.sasl.SaslServer;
-
 public class CarPriceEstimator {
 
 	public double getSalePrice(String makeAndModel, int yearManufactured, double milesDriven,
