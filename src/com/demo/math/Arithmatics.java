@@ -1,4 +1,4 @@
-// package demo;
+package com.demo.math;
 
 class Arithmatics {
     // Adapted from http://www.ntu.edu.sg/home/ehchua/programming/java/J1a_Introduction.html

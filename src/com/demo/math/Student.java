@@ -1,4 +1,4 @@
-// package demo;
+package com.demo.math;
 
 class Student {
     // variable declarations
