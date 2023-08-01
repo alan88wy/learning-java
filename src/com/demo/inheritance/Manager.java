@@ -1,4 +1,4 @@
-package inheritance;
+package com.demo.inheritance;
 
 import java.time.LocalDate;
 
