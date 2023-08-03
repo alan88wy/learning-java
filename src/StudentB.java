@@ -1,6 +1,6 @@
 
 
-public class Student {
+public class StudentB {
     static int computeCount;
 
     int id;
@@ -15,7 +15,11 @@ public class Student {
     double tuitionFees = 12000.0;
     double internationalFees = 5000.0;
 
-    public Student(String name, String gender) {
+    public StudentB() {
+        
+    }
+
+    public StudentB(String name, String gender) {
         
     }
 
@@ -41,7 +45,7 @@ public class Student {
 
 
     public static void main(String[] args) {
-        Student student1 = new Student();
+        StudentB student1 = new StudentB();
         student1.id = 1000;	
         student1.name = "John";
         student1.gender = "male";
@@ -52,7 +56,7 @@ public class Student {
         student1.international = false;
         student1.compute();
         
-        Student student2 = new Student();
+        StudentB student2 = new StudentB();
         student2.id = 1001;	
         student2.name = "Raj";
         student2.gender = "male";
@@ -63,7 +67,7 @@ public class Student {
         student2.international = true;
         student2.compute();
         
-        Student student3 = new Student();
+        StudentB student3 = new StudentB();
         student3.id = 1002;
         student3.name = "Anita";
         student3.gender = "female";
@@ -74,6 +78,6 @@ public class Student {
         student3.international = true;
         student3.compute();
         
-        System.out.println("Student.computeCount: " + Student.computeCount);
+        System.out.println("Student.computeCount: " + StudentB.computeCount);
     }
 }

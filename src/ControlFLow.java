@@ -39,11 +39,11 @@ public class ControlFLow {
 
         // Ternary operator
 
-        String result = (v >= 12) ? ((v == 12) ? "= 12" :  "> 12"): "<= 12";
+        // String result = (v >= 12) ? ((v == 12) ? "= 12" :  "> 12"): "<= 12";
 
-        System.out.println(result);
+        // System.out.println(result);
 
-        System.out.println("");
+        // System.out.println("");
 
         int[] array = {0,1,2,3,4,5,6,7,8,9, 10, 11};
 
