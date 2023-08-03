@@ -2,6 +2,9 @@ package com.demo.inheritance;
 
 import java.time.LocalDate;
 
+import com.demo.data.Employee;
+import com.demo.data.Manager;
+
 public class myClass {
     public static void main(String[] args) {
         Employee a = new Employee("a", 1000.0, "MI6", LocalDate.now());

@@ -1,5 +1,6 @@
 package com.demo.math;
 
+import com.demo.data.Student;
 class Arithmatics {
     // Adapted from http://www.ntu.edu.sg/home/ehchua/programming/java/J1a_Introduction.html
     static void print() {

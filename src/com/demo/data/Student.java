@@ -1,15 +1,15 @@
-package com.demo.math;
+package com.demo.data;
 
-class Student {
+public class Student {
     // variable declarations
     int id; 
-    String name; 
+    public String name; 
     String gender = "male";
 
     // Constructors
-    Student(int id, String name) {
+    public Student(int id, String name) {
         this(name); // Invoking overloaded constructor. If present, should be first statement
-	this.id = id;
+	    this.id = id;
     }
 
     Student(String name) {
