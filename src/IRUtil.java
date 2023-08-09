@@ -21,6 +21,7 @@ public class IRUtil {
             // Step 6: Re-compute doc with the string appearing after term till end of doc. Hint: You can use substring() & length() methods
 
             doc = doc.substring(index + term.length());
+
             // Step 7: Re-compute index with index position of term in the re-computed doc. Go to step 4 to continue processing.
             index = doc.indexOf(term);
         }
