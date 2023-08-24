@@ -95,5 +95,22 @@ public class StringDemo {
         System.out.println(sb1);
         sb1.reverse();
         System.out.println(sb1);
+
+        // Escape Sequences
+        // \t - tab  \r - carriage return \f - formfeed   \b - backspace
+        System.out.println("\ta\tb\tc\td\r1\fe\n");
+        // Print character { @ ( A ! B ) C }
+        System.out.println("\u007B\u0020\u0040\u0020\u0028\u0020\u0041\u0020\u0021\u0020\u0042\u0020\u0029\u0020\u0043\u0020\u007D");
+        // Print # $ % & ' * + , -
+        System.out.println("\u0023\u0020\u0024\u0020\u0025\u0020\u0026\u0020\u0027\u0020\u002A\u0020\u002B\u0020\u002C\u0020\u002D");
+        // Print / 0 1 2 : ; < = >
+        System.out.println("\u002F\u0020\u0030\u0020\u0031\u0020\u0032\u0020\u003A\u0020\u003B\u0020\u003C\u0020\u003D\u0020\u003E");
+        // Print ? @ Z [ \ ] ^ _
+        System.out.println("\u003F\u0020\u0040\u0020\u005A\u0020\u005B\u0020\u005C\u005C\u0020\u005D\u0020\u005E\u0020\u005F");
+        // Print a b c d x y z { | ~
+        System.out.println("\u0061\u0020\u0062\u0020\u0063\u0020\u0064\u0020\u0078\u0020\u0079\u0020\u007A\u0020\u007B\u0020\u007C\u0020\u007E");
+
+        
+
     }
 }
