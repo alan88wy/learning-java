@@ -1,7 +1,7 @@
 public class BoxPrimitives {
-    
+
     public static void main(String[] args) {
-        
+
         // Boxed Primitives
 
         Integer in = Integer.valueOf(2);  // static factory method
