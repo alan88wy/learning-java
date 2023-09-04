@@ -9,6 +9,11 @@ public class BoxPrimitives {
         Double db = Double.valueOf(23.5);
         Character ch = Character.valueOf('c');
 
-        System.out.println(in + " " + bl + " " + db + " " + ch);
+        System.out.println("in = " + in + ", b1 = " + bl + ", db = " + db + ", ch = " + ch);
+
+        System.out.println("in.compareTo(2) : " + (in.compareTo(2) == 0 ? true : false));
+
+        System.out.println("in == 2 : " + (in == 2));
+        
     }
 }
