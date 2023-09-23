@@ -46,7 +46,7 @@ public class BoxPrimitives {
         System.out.println("To Binary (18) : " + Integer.toBinaryString(18));
         System.out.println("To Hex (18) : " + Integer.toHexString(18));
         
-        ArrayList aList = new ArrayList();
+        ArrayList<Long> aList = new ArrayList<Long>();
         aList.add(Long.valueOf(20));
         System.out.println(aList);
     }
